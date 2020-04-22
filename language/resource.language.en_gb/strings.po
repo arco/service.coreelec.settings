@@ -313,7 +313,7 @@ msgid "Enable/Disable USB Power when device is off/suspend"
 msgstr ""
 
 msgctxt "#789"
-msgid "Enable/Disable device heartbeat LED"
+msgid "Change device LED behavior"
 msgstr ""
 
 msgctxt "#790"
@@ -342,6 +342,18 @@ msgstr ""
 
 msgctxt "#796"
 msgid "Enable/Disable CEC Wake-Up by the device become active route"
+msgstr ""
+
+msgctxt "#800"
+msgid "Configure dtb settings"
+msgstr ""
+
+msgctxt "#801"
+msgid "Configure eMMC speed mode"
+msgstr ""
+
+msgctxt "#802"
+msgid "Configure WiFi SoC SDIO speed"
 msgstr ""
 
 msgctxt "#32001"
@@ -1136,6 +1148,10 @@ msgctxt "#32404"
 msgid "CEC"
 msgstr ""
 
+msgctxt "#32405"
+msgid "Device Tree"
+msgstr ""
+
 msgctxt "#32410"
 msgid "Fan Mode"
 msgstr ""
@@ -1161,7 +1177,7 @@ msgid "USB Power"
 msgstr ""
 
 msgctxt "#32419"
-msgid "Heartbeat LED"
+msgid "System LED"
 msgstr ""
 
 msgctxt "#32420"
@@ -1170,6 +1186,18 @@ msgstr ""
 
 msgctxt "#32421"
 msgid "CPU governor"
+msgstr ""
+
+msgctxt "#32422"
+msgid "eMMC Speed Mode"
+msgstr ""
+
+msgctxt "#32423"
+msgid "WiFi SoC SDIO Speed"
+msgstr ""
+
+msgctxt "#32424"
+msgid "Red LED"
 msgstr ""
 
 msgctxt "#32430"
@@ -1242,4 +1270,12 @@ msgstr ""
 
 msgctxt "#33422"
 msgid "Finished remove of the BL301 on internal eMMC.[CR]A reboot is now required!"
+msgstr ""
+
+msgctxt "#33423"
+msgid "Finished update of /flash/dtb.img.[CR]A reboot is now required!"
+msgstr ""
+
+msgctxt "#33424"
+msgid "[COLOR red]Are you sure to change this value?[/COLOR][CR]Please enter confirmation code '%s'"
 msgstr ""
