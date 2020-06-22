@@ -178,8 +178,26 @@ class hardware:
                             'action': 'set_value_xml',
                             'type': 'multivalue',
                             },
-                        'emmc': {
+                        'spicc0': {
                             'order': 3,
+                            'name': 32425,
+                            'InfoText': 803,
+                            'value': '',
+                            'xml_node': 'spicc0',
+                            'action': 'set_value_xml',
+                            'type': 'multivalue',
+                            },
+                        'spicc1': {
+                            'order': 4,
+                            'name': 32425,
+                            'InfoText': 803,
+                            'value': '',
+                            'xml_node': 'spicc1',
+                            'action': 'set_value_xml',
+                            'type': 'multivalue',
+                            },
+                        'emmc': {
+                            'order': 5,
                             'name': 32422,
                             'InfoText': 801,
                             'value': '',
@@ -189,7 +207,7 @@ class hardware:
                             'dangerous': True,
                             },
                         'slowsdio': {
-                            'order': 4,
+                            'order': 6,
                             'name': 32423,
                             'InfoText': 802,
                             'value': '',
@@ -405,6 +423,8 @@ class hardware:
 
             self.fill_values_by_xml(self.struct['dtb_settings']['settings']['sys_led'])
             self.fill_values_by_xml(self.struct['dtb_settings']['settings']['red_led'])
+            self.fill_values_by_xml(self.struct['dtb_settings']['settings']['spicc0'])
+            self.fill_values_by_xml(self.struct['dtb_settings']['settings']['spicc1'])
             self.fill_values_by_xml(self.struct['dtb_settings']['settings']['emmc'])
             self.fill_values_by_xml(self.struct['dtb_settings']['settings']['slowsdio'])
 
