@@ -360,6 +360,10 @@ msgctxt "#803"
 msgid "Enable/Disable SPI interface"
 msgstr ""
 
+msgctxt "#804"
+msgid "Choose IR protocol type for meson-remote"
+msgstr ""
+
 msgctxt "#32001"
 msgid "Services"
 msgstr ""
@@ -1206,6 +1210,10 @@ msgstr ""
 
 msgctxt "#32425"
 msgid "SPI Interface"
+msgstr ""
+
+msgctxt "#32426"
+msgid "IR Protocol Type"
 msgstr ""
 
 msgctxt "#32430"
